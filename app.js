@@ -2,10 +2,11 @@ var app = express();
 
 //routes
 app.get("/",function(req,res){
-    res.render("index.html");
+    //res.render("index.html");
+    res.send('hello world');
 }
 )
-
+/*
 window.addEventListener('load',()=>{
     let long;
     let lat;
@@ -23,3 +24,4 @@ window.addEventListener('load',()=>{
         h1.textContent = "hey this is not working because reasons";
     }
 })
+*/

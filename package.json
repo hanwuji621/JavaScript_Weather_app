@@ -1,8 +1,8 @@
 {
-    "name": "tutorial",
+    "name": "Weather App",
     "version": "1.0.0",
     "scripts":{
-        "start": "node server.js"
+        "start": "node app.js"
     },
     "dependencies":{
         "express": "4.13.3"

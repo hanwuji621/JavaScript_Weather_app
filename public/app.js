@@ -10,7 +10,7 @@ window.addEventListener('load',()=>{
             lat  = position.coords.latitude;
 
             const proxy ="https://cors-anywhere.herokuapp.com";
-            const api = '${proxy}https://api.darksky.net/forecast/413348a644267a7ec177319ea973a021/${lat},${long}';
+            const api = 'http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&APPID=17dd6c9ee5a497d16add578b6ad550fe';
 
             fetch(api)
                 .then(Response =>{
